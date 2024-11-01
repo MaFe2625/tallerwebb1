@@ -1,4 +1,4 @@
-//EJERCICIO 2//
+/* //EJERCICIO 2//
 function calcularTotalFinal(cuenta, servicio) {
     let propina = 0;
     let descuento = 0;
@@ -45,7 +45,7 @@ calcularTotalFinal(totalCuenta, nivelServicio);
 /*
 */
 //EJERCICIO 3//
-const presupuestos = {
+/* const presupuestos = {
     alimentacion: 300000,
     transporte: 200000,
     entretenimiento: 500000,
@@ -99,7 +99,7 @@ mostrarResumen();
 /*
 */
 // EJERCICIO 4//
-function calcularPrima(salarioMensual, diasTrabajados, ausenciasInjustificadas) {
+/* function calcularPrima(salarioMensual, diasTrabajados, ausenciasInjustificadas) {
     const diasPorMes = 30;
     const primaCompleta = (salarioMensual * diasTrabajados) / diasPorMes;
 
@@ -126,7 +126,7 @@ console.log(`La prima de servicios es: $${prima.toFixed(2)}`);
 /*
 */
 //ejercicio 5//
-function calcularPromedioPonderado(materias) {
+/* function calcularPromedioPonderado(materias) {
     let sumaPonderada = 0;
     let sumaPesos = 0;
 
@@ -160,11 +160,11 @@ const promedio = calcularPromedioPonderado(materias);
 const resultado = determinarResultado(promedio);
 
 console.log(`El promedio ponderado es: ${promedio.toFixed(2)}`);
-console.log(`Resultado: ${resultado}`);
+console.log(`Resultado: ${resultado}`); */
 /*
 */
 //EJERCICIO 6//
-function registrarAsistencia(participantes, horaIngreso) {
+/* function registrarAsistencia(participantes, horaIngreso) {
     let totalAsistentes = 0;
     let totalTarde = 0;
     const registroAsistencia = [];
@@ -212,11 +212,10 @@ resumenAsistencia.registroAsistencia.forEach((registro) => {
         `${registro.nombre} - Hora de llegada: ${registro.horaLlegada} - Puntaje de asistencia: ${registro.puntajeAsistencia} - ${registro.llegoTarde ? "Llegó tarde" : "A tiempo"
         }`
     );
-});
-/*
-*/
+}); */
+
 //EJERCICIO 7//
-function calcularCalorias(ejercicio, intensidad, duracion) {
+/* function calcularCalorias(ejercicio, intensidad, duracion) {
     let caloriasPorMinuto;
 
 
@@ -257,9 +256,8 @@ const intensidad = "alta";
 const duracion = 30;
 
 const calorias = calcularCalorias(ejercicio, intensidad, duracion);
-console.log(`Calorías quemadas: ${calorias}`);
-/*
-*/
+console.log(`Calorías quemadas: ${calorias}`); */
+
 //EJERCICIO 9//
 function calcularInteresCompuesto() {
 
